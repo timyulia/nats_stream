@@ -1,0 +1,62 @@
+{
+  "order_uid": "duiaf789hfsan5test",
+  "track_number": "fd6sn78956ds",
+  "entry": "WBIL",
+  "delivery": {
+    "name": "Test Testov",
+    "phone": "+9720000000",
+    "zip": "119200",
+    "city": "Moscow",
+    "address": "Kutuzovskiy ave 45",
+    "region": "Moscow",
+    "email": "test@gmail.com"
+  },
+  "payment": {
+    "transaction": "b563feb7b2b84b6test",
+    "request_id": "",
+    "currency": "USD",
+    "provider": "wbpay",
+    "amount": 1817,
+    "payment_dt": 1637907727,
+    "bank": "alpha",
+    "delivery_cost": 1500,
+    "goods_total": 317,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 9934930,
+      "track_number": "WBILMTESTTRACK3",
+      "price": 1200,
+      "rid": "nd4219087a764ae0btest",
+      "name": "Lipstick",
+      "sale": 10,
+      "size": "0",
+      "total_price": 1080,
+      "nm_id": 2378912,
+      "brand": "Clarins",
+      "status": 202
+    },
+    {
+      "chrt_id": 3729873,
+      "track_number": "WBILMTESTTRACK2",
+      "price": 900,
+      "rid": "ab4219087a778shesbtest",
+      "name": "Powder",
+      "sale": 20,
+      "size": "0",
+      "total_price": 720,
+      "nm_id": 688643,
+      "brand": "NYX",
+      "status": 202
+    }
+  ],
+  "locale": "en",
+  "internal_signature": "",
+  "customer_id": "test",
+  "delivery_service": "meest",
+  "shardkey": "9",
+  "sm_id": 99,
+  "date_created": "2021-11-26T06:22:19Z",
+  "oof_shard": "1"
+}

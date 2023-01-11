@@ -1,0 +1,25 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: "natsdatabase"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=qwerty
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./database/databasedata:/var/lib/postgresql/data
+
+  nats-streaming:
+    container_name: natsstreaming
+    image: nats-streaming:0.24.6
+    command:
+      - "--store"
+      - "file"
+      - "--dir"
+      - "data"
+    ports:
+      - "4222:4222"
+      - "8222:8222"

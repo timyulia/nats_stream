@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/main.css">
+    <title>Not Found</title>
+</head>
+<body>
+<h1>Found {{ .id }}</h1>
+<br>
+<div>
+    <form action="" method="post">
+        <label for="uid" id="enter">Enter another UID:</label>
+        <br>
+        <input type="text" name="uid" id="uid" placeholder="order's UID..." class="search">
+        <input type="submit" value="Find this order" id="search-button" class="search">
+        <br>
+        <label>
+            <textarea readonly>{{ .order }}</textarea>
+        </label>
+    </form>
+</div>
+</body>
+</html>
