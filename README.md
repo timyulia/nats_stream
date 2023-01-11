@@ -1,5 +1,5 @@
 # nats_streaming
-Чтобы запустить:
+Чтобы запустить, нужно из основной директории проекта выполнить команды:
 ```
 docker-compose up
 cd publisher && go run main.go
